@@ -1,0 +1,75 @@
+<schedule term="Fall" year="98" xmlns:data="x-schema:idSchema.xml"
+                                xmlns:ref="x-schema:refSchema.xml">
+  <classes>
+    <data:class id="ENGL6004">
+      <title>From Here to Eternity: Studies in the Future
+        and other Temporal Genres</title>
+      <ref:teacherRef ref="T31330"/>
+      <students>
+        <ref:student ref="S44098"/>
+        <ref:student ref="S44098"/>
+        <ref:student ref="S44098"/>
+        <ref:student ref="S48984"/>
+      </students>
+    </data:class>
+    <data:class id="HIST6010">
+      <title>The You Decade: A History of Finger Pointing
+        in Post-War America</title>
+      <ref:teacher ref="T72100"/>
+      <students>
+        <ref:student ref="S48984"/>
+        <ref:student ref="S48984"/>
+        <ref:student ref="S48984"/>
+        <ref:student ref="S44098"/>
+      </students>
+    </data:class>
+    <data:class id="ENGL6020">
+      <title>Reading between the Lines: The Literature
+        of Waiting</title>
+      <ref:teacher ref="T31330"/>
+      <students>
+        <ref:student ref="S48984"/>
+        <ref:student ref="S48984"/>
+        <ref:student ref="S48984"/>
+        <ref:student ref="S44098"/>
+      </students>
+    </data:class>
+  </classes>
+  <teachers>
+    <data:teacher id="T31330">
+      <name>Margaret Doornan</name>
+      <position>Associate Professor</position>
+      <classes>
+        <ref:class ref="ENGL6004"/>
+        <ref:class ref="ENGL6020"/>
+      </classes>
+    </data:teacher>
+    <data:teacher id="T72100">
+      <name>Hal Canter</name>
+      <position>Instructor</position>
+      <classes>
+        <ref:class ref="HIST6010"/>
+      </classes>
+    </data:teacher>
+  </teachers>
+  <students>
+    <data:student id="S44098">
+      <name>Kelly Griftman</name>
+      <year>Senior</year>
+      <status>full-time</status>
+      <classes>
+        <ref:class ref="HIST6010"/>
+        <ref:class ref="ENGL6020"/>
+      </classes>
+    </data:student>
+    <data:student id="S48984">
+      <name>Norbert James</name>
+      <year>Senior</year>
+      <status>full-time</status>
+      <classes>
+        <ref:class ref="ENGL6004"/>
+        <ref:class ref="ENGL6020"/>
+      </classes>
+    </data:student>
+    </students>
+</schedule>
